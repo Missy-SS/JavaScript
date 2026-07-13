@@ -10,8 +10,11 @@ console.log("Pode dirigir?", podeDirigir);
 //condições para viajar sozinha
 // || representa o "ou"
 
-const podeViajarSozinha = maiorDeIdade || possuiCNH; // OR
-console.log("Pode viajar sozinha?", podeViajarSozinha);
+if (maiorDeIdade || possuiCNH) { // OR
+    console.log("Pode viajar sozinha");
+} else {
+    console.log("Não pode viajar sozinha");
+}
 
 //condições para precisar de um acompanhante
 

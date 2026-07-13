@@ -23,3 +23,12 @@ if (notaDoAluno >= 9) {
     console.log("Nota ruim");
 }
 
+//alternativas para condicionais
+// operador ternário
+
+idade >= 18 ? console.log("Maior de idade") : console.log ("Menor de idade");
+
+notaDoAluno >= 9 ? console.log("Excelente") :
+    notaDoAluno >= 7 ? console.log("Boa") :
+        notaDoAluno >= 4 ? console.log("Mediana") :
+            console.log("Ruim");

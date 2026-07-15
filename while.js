@@ -11,3 +11,10 @@ do {
     console.log("Número atual: ", numero);
     numero++
 } while (numero <= 10);
+
+//alternativas para iterar com segurança
+const palavra = "exemplo";
+
+for (const caractere of palavra) {
+  console.log(caractere);
+}

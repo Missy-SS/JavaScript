@@ -12,3 +12,11 @@ function calcularDobro (numero){
 
 const numeroDobrado = calcularDobro(4)
 console.log("O dobro de 4 é:", numeroDobrado)
+
+//ARROW FUNCTION
+
+const saudacoes = (nome) => {
+    console.log("Vida longa e próspera", nome)
+}
+
+saudacoes("Mel")

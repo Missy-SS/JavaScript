@@ -20,3 +20,11 @@ const saudacoes = (nome) => {
 }
 
 saudacoes("Mel")
+
+//FUNÇÃO COM CÁLCULO
+
+function somar(a,b) {
+    return a + b;
+}
+const resultado = somar(5, 7);
+console.log(resultado)

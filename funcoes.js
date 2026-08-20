@@ -1,8 +1,14 @@
 //FUNÇÃO SAUDACAO
 
-function saudacao(nome) {
-    console.log("Olá", nome)
-}
+//Construção tradicional
+
+// function saudacao(nome) {
+//     console.log("Olá", nome)
+// }
+
+//Uso de ARROW FUNCTION
+
+const saudacao = nome => console.log("Olá", nome)
 
 saudacao("Mel")
 saudacao("Vanessa")
@@ -10,9 +16,16 @@ saudacao("Day")
 
 
 //FUNÇÃO CALCULAR O DOBRO
-function calcularDobro (numero){
-    return numero * 2
-}
+
+//Construção tradicional
+
+// function calcularDobro (numero){
+//     return numero * 2
+// }
+
+//Uso de ARROW FUNCTION
+
+const calcularDobro = numero => numero * 2
 
 const numeroDobrado = calcularDobro(4)
 console.log("O dobro de 4 é:", numeroDobrado)
@@ -21,9 +34,15 @@ console.log("O dobro de 4 é:", numeroDobrado)
 //FUNÇÃO SAUDACOES
 //ARROW FUNCTION
 
-const saudacoes = (nome) => {
-    console.log("Vida longa e próspera", nome)
-}
+//Construção tradicional
+
+// const saudacoes = (nome) => {
+//     console.log("Vida longa e próspera", nome)
+// }
+
+//Uso de ARROW FUNCTION
+
+const saudacoes = nome => console.log("Vida longe e próspera", nome)
 
 saudacoes("Mel")
 

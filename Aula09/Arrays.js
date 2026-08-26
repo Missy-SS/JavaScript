@@ -37,3 +37,17 @@ for(let i = 0; i < frutas.length; i++){
     console.log("Índice: ", i)
     console.log(frutas[i])
 }
+
+//Utilizando forEach para percorrer arrays
+//O forEach recebe um callback (linha 48, conceitos_aula09.txt)
+
+console.log("Usando forEach: ")
+frutas.forEach((valor, indice) => {
+    console.log("índice", indice, valor)
+})
+
+//Utilizando o for...of
+console.log("Usando for of: ")
+for (const fruta of frutas) {
+    console.log("Fruta da vez: ", fruta)
+}

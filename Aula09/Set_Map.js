@@ -35,3 +35,26 @@ mapa.set("idade", "18");
 
 console.log(mapa.get("nome"));
 console.log(mapa.get("idade"));
+
+//Quando usar o Map
+
+//Armazenar informações associadas a uma chave específica
+//Manter ordem da inserção
+//Usar chaves que não sejam strings
+
+let chaveFuncao = function() {};
+let chaveObjeto = {};
+
+let mapaVariado = new Map();
+mapaVariado.set(chaveFuncao, "Valor para função");
+mapaVariado.set(chaveObjeto, "Valor para objeto");
+
+console.log(mapaVariado.get(chaveFuncao));
+console.log(mapaVariado.get(chaveObjeto));
+
+//Array: Guarda valores em ordem e permite duplicatas.
+
+//Set: Guarda valores únicos, sem duplicatas.
+
+//Map: Guarda pares de chave e valor com chaves únicas e ordenadas.
+

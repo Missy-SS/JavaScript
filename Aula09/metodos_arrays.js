@@ -24,3 +24,11 @@ const numerosImpares = numeros.filter((numero) => {
 
 console.log("Todos os números ímpares: ", numerosImpares);
 
+//Utilizando o método map
+//Transforma a lista em uma lista de elementos diferentes
+
+const numerosDobrados = numeros.map((numero) => {
+    return numero * 2;
+});
+
+console.log("Lista mapeada", numerosDobrados);

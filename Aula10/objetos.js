@@ -42,3 +42,14 @@ livro.idioma = ["Inglês", "Português", "Espanhol"];
 console.log("Título do livro: ", livro.titulo);
 livro.publicado = true ? console.log("Livro foi publicado!") : console.log("Livro não foi publicado ainda");
 console.log("Idiomas disponíveis ", livro.idioma);
+
+//Explorando o objeto livro
+
+//Adicionar um idioma
+livro.idioma.push("Mandarim");
+
+console.log("Idomas disponíveis: ", livro.idioma);
+
+livro.idioma.push("Francês");
+
+console.log("Idiomas disponíveis: ", livro.idioma);

@@ -53,3 +53,36 @@ console.log("Idomas disponíveis: ", livro.idioma);
 livro.idioma.push("Francês");
 
 console.log("Idiomas disponíveis: ", livro.idioma);
+
+//Manipulando propriedades do objeto
+
+console.log("Livro antes:", livro);
+delete livro.paginas
+
+console.log("Livro depois: ", livro);
+
+//acessar propriedades com colchetes e strings
+
+livro["autor"]
+
+console.log("Autor do livro", livro["autor"])
+
+//Criando e utilizando objetos alinhados
+
+const autor = {
+    nome: "J R R Tolkien",
+    nacionalidade: "Britanico",
+    idade: 98
+}
+
+console.log("Autor ", autor);
+
+livro.autor = autor
+
+console.log(livro)
+
+livro.autor.nome
+livro.autor.nacionalidade
+
+livros: [livro]
+

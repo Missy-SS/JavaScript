@@ -25,4 +25,20 @@ pessoa.sobrenome = "Paula";
 console.log("Nome: ", pessoa.nome);
 console.log("Sobrenome: ", pessoa.sobrenome);
 
+//Criando um exemplo adicional com objetos
 
+const livro = {
+    titulo: "O Hobbit",
+    autor: "J. R. R. Tolkien",
+    paginas: 310
+};
+
+//Expandindo propriedades de objetos
+
+livro.publicado = true;
+
+livro.idioma = ["Inglês", "Português", "Espanhol"];
+
+console.log("Título do livro: ", livro.titulo);
+livro.publicado = true ? console.log("Livro foi publicado!") : console.log("Livro não foi publicado ainda");
+console.log("Idiomas disponíveis ", livro.idioma);
